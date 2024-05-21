@@ -1,1 +1,82 @@
-body {background-color: powderblue;}
+body {background-color: #111;
+    color: rgb(235, 233, 225);
+}
+
+p.indent {
+    margin-left: 300px;
+    line-height: 1.8;
+    font-size: 16px;
+    margin-right: 300px;
+    
+}
+
+h2 {
+    text-indent: 30px; /* Adjust the value to set the desired indent size */
+    margin-bottom: 10px; /* Optional: Adds some space below the h2 */
+}
+
+a.bold{
+    font-weight: bold;
+}
+
+a.educationIndent{
+    margin-left: 250px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b1a1a;
+    display: flex;
+    justify-content: center; /* Center the ul */
+    align-items: center;
+}
+
+li {
+    margin: 0 50px; /* Add space between items */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111; /* Change the link color on hover */
+}
+
+.right {
+    margin-left: auto; /* Push this item to the right */
+}
+
+.active {
+    background-color: #4CAF50; /* Background color of the active link */
+}
+
+
+h1 {
+    margin-left: 550px; /* Adjust the value to set the desired left margin */
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.contact-info > * {
+    margin-right: 20px; /* Adjust the value to set the desired space between items */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h2 {
+    margin-left: 100px;
+}
